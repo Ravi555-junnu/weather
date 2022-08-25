@@ -1,0 +1,5 @@
+{% block content %}
+{% for i  in s %}
+<h3><a href="{% url 'display' i %}"> {{i}} </h3>
+{% endfor %}
+{% endblock content %}
